@@ -48,6 +48,7 @@
 				background:black;
 			}
 		</style>
+		<script src="https://unpkg.com/pixi.js/dist/browser/pixi.min.js"></script>
 	</head>
 	<body>
 		<canvas id="logo" width="90px"height="90px"></canvas>
@@ -146,7 +147,7 @@
 				command++;
 				if(command>1){
 					sambut.play();
-					command=0;
+					
 				}
 				ctx2.drawImage(contact,0,0,slide2.width,slide2.height);
             	ctx1.drawImage(slide1_bank[frame_slide1],0,0,200,400);
