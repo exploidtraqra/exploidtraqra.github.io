@@ -58,7 +58,16 @@
 				[0,0,0,0,0,0,0,0],
 			]
 			
-			
+			my_logo.forEach((row,y)=>{
+				row.forEach((value,x)=>{
+					switch(value){
+						case 1:
+						ctx.fillStyle="black";
+						ctx.fillRect(x,y,1,1);
+						break;
+					}
+				});
+			});
 		</script>
 	</body>
 </html>
