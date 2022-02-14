@@ -129,6 +129,9 @@
             setInterval(draw,30);
             ctx1.canvas.addEventListener("click",function(){
             	frame_slide1++;
+                if(frame_slide1>3){
+                	frame_slide1=1;
+                }
             });
 		</script>
 	</body>
