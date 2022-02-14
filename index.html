@@ -115,7 +115,7 @@
 					}
 				});
 			});
-			
+			let frame_slide1=0;
 			slide1_bank[1]=new Image();
 			slide1_bank[1].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-33-02-879_com.kiwibrowser.browser.jpg";
 			slide1_bank[2]=new Image();
@@ -127,6 +127,9 @@
             	ctx1.drawImage(slide1_bank[1],0,0,200,400);
             }
             setInterval(draw,30);
+            ctx1.canvas.addEventListener("click",function(){
+            	frame_slide1++;
+            });
 		</script>
 	</body>
 </html>
