@@ -88,7 +88,7 @@
 			const slide1_bank=[];
 			
 			ctx.scale(10,10);
-			let command=1;
+			let command=0;
 			const my_logo=[
 				[0,2,0,0,0,2,0],
 				[0,2,1,0,1,2,0],
@@ -142,6 +142,11 @@
 			contact.src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/contact.png";
 			
 			function draw(){
+				commad++;
+				if(commad>1){
+					
+					commad=0;
+				}
 				ctx2.drawImage(contact,0,0,slide2.width,slide2.height);
             	ctx1.drawImage(slide1_bank[frame_slide1],0,0,200,400);
                 frame_slide1++;
