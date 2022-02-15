@@ -81,8 +81,6 @@
 		<script>
 			const slide1 = document.getElementById("slide1");
 			const slide2 = document.getElementById("slide2");
-			const ctx1 = slide1.getContext("2d");
-			const ctx2 = slide2.getContext("2d");
 			const logo = document.getElementById("logo");
 			const ctx = logo.getContext("2d");
 			
@@ -118,51 +116,7 @@
 					}
 				});
 			});
-			/*
-			let frame_slide1=1;
-			slide1_bank[1]=new Image();
-			slide1_bank[1].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-33-02-879_com.kiwibrowser.browser.jpg";
-			slide1_bank[2]=new Image();
-			slide1_bank[2].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-33-07-819_com.kiwibrowser.browser.jpg";
-			slide1_bank[3]=new Image();
-			slide1_bank[3].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-33-20-451_com.kiwibrowser.browser.jpg";
-			slide1_bank[4]=new Image();
-			slide1_bank[4].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-33-41-264_com.rhmsoft.edit.pro.jpg";
-			slide1_bank[5]=new Image();
-			slide1_bank[5].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-33-45-798_com.rhmsoft.edit.pro.jpg";
-			slide1_bank[6]=new Image();
-			slide1_bank[6].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-34-00-583_com.rhmsoft.edit.pro.jpg";
-			slide1_bank[7]=new Image();
-			slide1_bank[7].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-34-37-232_com.rhmsoft.edit.pro.jpg";
-			slide1_bank[8]=new Image();
-			slide1_bank[8].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-34-44-598_com.rhmsoft.edit.pro.jpg";
-			slide1_bank[9]=new Image();
-			slide1_bank[9].src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/Screenshot_2022-02-14-19-35-12-131_com.rhmsoft.edit.pro.jpg";
-			*/
-			let active=false;
-			const contact = new Image();
-			contact.src="https://raw.githubusercontent.com/freefireevogunskin/freefireevogunskin.github.io/main/contact.png";
-			function draw(){
-				/*ctx2.drawImage(contact,0,0,slide2.width,slide2.height);
-            	ctx1.drawImage(slide1_bank[frame_slide1],0,0,200,400);*/
-                /*frame_slide1++;
-                if(frame_slide1>9){
-                	frame_slide1=1;
-                }*/
-                ctx1.beginPath();
-                ctx1.fillStyle="white";
-                ctx1.font="20px Normal";
-                ctx1.fillText("LOOP IN BASH SHELL",0,0);
-                ctx1.fill();
-            }
-            setInterval(draw,1000);
-            document.addEventListener("touchstart",function(){
-				active=true;
-            });
-            if(active){
-            	console.log("true");
-				active=false;
-			}
+			
 		</script>
 	</body>
 </html>
