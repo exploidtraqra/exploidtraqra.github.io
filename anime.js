@@ -16,7 +16,7 @@ class Mysource{
 		title.innerHTML="EPISODE 2";
 	}
 	ep3(){
-		video.srcdoc="<video width='100%' height='100%' controls><source src='https://www67.zippyshare.com/d/kTS08kbu/48786/Otakudesu_TkyRaven--03_480p.mp4' type='video/mp4'/></video>";
+		video.srcdoc="<video width='100%' height='100%' controls><source src='https://www.mediafire.com/file/csisl0yiwt12xgu/Ravens3.mp4/file' type='video/mp4'/></video>";
 		title.innerHTML="EPISODE 3";
 	}
 	ep4(){
