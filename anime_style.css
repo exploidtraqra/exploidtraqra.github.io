@@ -19,6 +19,7 @@ html,body{
 }
 .title{
 	color:red;
+	font-size:30px;
 }
 .img_title{
 	width:35%;
@@ -34,4 +35,9 @@ html,body{
 }
 .E1{
 	background:#00A8FF;
+}
+span{
+	position:relative;
+	top:-50px;
+	font-size:30px;
 }
